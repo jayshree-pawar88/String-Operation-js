@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./style/style.css">
+<!--Style link-->
+<title>String conversion</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md mynavbar">
+        <div class="container">
+              <h2 class="navabar-brand mycolor text-light"><i>Sentence Conversion</i></h2>
+    
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavigation">
+                <span class="navbar-toggler-icon"></span></button>
+    
+           <div class="collapse navbar-collapse" id="mynavigation">   
+            <ul class="navbar-nav text-center ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Home</a></li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">About</a></li>
+                <li class="nav-item">
+                     <a class="nav-link text-light" href="#">Contact</a></li>
+            </ul>
+            </div> 
+        </div>
+       </nav>
+     
+       <div class="text">
+           <textarea rows="7" cols="150" class="text-area" id="user-input"></textarea>
+       </div>
+
+       <div class="button">
+           <div  class="sub-btn">
+              <button onclick=" Countword();">Count Word</button>
+              <button onclick="CountLetter()">Count Letters</button>
+              <button onclick="SpaceCount()">Count Spaces</button>
+              <button onclick="Newline()">Count Newline</button>
+              <button onclick="TitleCase()"> Title Case</button>
+           </div>
+
+           <div class="sub-btn">
+              <button onclick="CountVowel()">Count Vowel</button>
+              <button onclick="CountConsonent()">Count-consonents</button>
+              <button onclick="SortWord()">Sort Word</button>
+              <button onclick="capitalize()">Capitalize</button>
+              <button onclick="lowercase()"> Small Letter</button>
+           </div>
+       </div>
+
+       <div class="text">
+           <textarea rows="7" cols="150" class="text-area" id="result"></textarea>
+       </div>
+
+       <div class="sort-word-result">
+           <p id="result1"></p>
+           <p id="result2"></p>
+           <p id="result3"></p>
+           <p id="result4"></p>
+           <p id="result5"></p>
+           <p id="result6"></p>
+           <p id="result7"></p>
+           <p id="result8"></p>
+           <p id="result9"></p>
+           <p id="result10"></p>
+           <p id="result11"></p>
+           <p id="result12"></p>
+       </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+<!--Script link-->
+<script src="./script/script.js"></script>
+
+</body>
+</html>

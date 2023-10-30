@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mynavbar{
+    background-color: blueviolet;
+  }
+  .mycolor{
+      color: rgb(31, 6, 8);
+  }
+  .text{
+      text-align: center;
+      margin: 20px 0px;
+  }
+  .text-area{
+      border: 2px solid black;
+      border-radius: 5px;
+
+  }
+  .text-area:hover{
+      box-shadow: 3px 4px 5px red;
+  }
+  .button{
+      margin: 20px 180px;
+  }
+  .sub-btn{
+      display: flex;
+  }
+  button{
+      height: 50px;
+      width: 180px;
+      border-radius: 5px;
+      margin: 10px;
+      background-color: rgb(200, 29, 29);
+      color: white;
+      font-weight: bold;
+  
+  }
+  button:hover{
+      background-color: green;
+      box-shadow: 2px 3px 5px white;
+  }
+  .sort-word-resul{
+      display: none;
+  }
